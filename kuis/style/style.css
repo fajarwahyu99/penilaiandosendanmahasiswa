@@ -1,0 +1,116 @@
+/* CSS Document */
+body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+/*pengaturan halaman*/
+#container{
+	width: 1000px;
+	font-size: 90%;
+	margin: 0 auto;
+}
+
+/*pengaturan header*/
+#header{
+	padding: 10px;
+	height: 75px;
+	border: #0000ff dashed 1px;
+	background-color: #99CCFF;
+	background: url(../image/Untitled-2.gif) center no-repeat;
+	
+}
+
+#header h1{
+	display:block;
+	width:815px;
+	height:110px;
+	padding:10px;
+	color:#003399;
+	font-family:"Trebuchet MS", helvetica, arial, sans-serif;
+}
+
+/*pengaturan side panel*/
+#sidebar{
+	border:#0000ff dashed 1px;
+	margin-top:10px;
+	width:200px;
+	height:500px;
+	float:left;
+	background-color:#99CCFF;
+}
+
+#sidebar h1{
+	color:#993300;
+	padding-left:10px;
+	font-family:"Trebuchet MS", helvetica, arial, sans-serif;
+}
+
+
+/*pengaturan navigasi menu*/
+ul#navmenu{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul#navmenu li{
+	margin-bottom: 5px;
+}
+/*ul#navmenu a{
+	display:block;
+	width:auto;
+	height:auto;
+	background-color:#003366;
+	padding: 5px 5px 3px;
+	text-align:left;
+	text-decoration:underline;
+	color:#eeccll;
+	cursor:pointer;
+}*/
+
+ul#navmenu a:hover, ul#navmenu a:focus, ul#navmenu a:active{
+	background-color:333333;
+	color:#ffffff;
+}
+
+/*ul#navmenu a.selected, ul#navmenu a.selected:hover,
+ul#navmenu a.selected:focus, ul#navmenu a.selected:active{
+	background-color:#386088;
+	color:#ffffff;
+}*/
+
+/*ul#navmenu a.selected{
+	text-align:right;
+	cursor:default;
+}*/
+
+/*pengaturan content*/
+#page{
+	border:#0000ff dashed 1px;
+	margin-top: 10px;
+	margin-left: 213px;
+	padding: 0 px;
+	width:auto;
+	height:502px;
+	float:inherit;
+}
+#page h2{
+	color:#993300;
+	font-family:"Trebuchet MS", helvetica, arial, sans-serif;
+}
+img{
+	border:none;
+}
+
+#clear{
+	clear:both;
+}
+
+/*pengaturan footer*/
+#footer{
+	border:#0000FF dashed 1px;
+	margin-top: 10px;
+	text-align:center;
+	background-color:#99CCFF;
+}

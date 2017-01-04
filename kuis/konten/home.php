@@ -1,0 +1,1 @@
+<img src="image/quote 1.jpg" />

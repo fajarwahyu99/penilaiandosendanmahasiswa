@@ -1,0 +1,117 @@
+/* Default */
+body {
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/* pengaturan halaman */
+#container{
+	width: 1000px;
+	font-size: 90%;
+	margin: 0 auto;
+}
+
+/* pengaturan header */
+#header{
+	padding: 10px;
+	height: 75px;
+	border: #0000ff dashed 1px;
+	background-image:url(../images/koma.gif);
+}
+
+#header h1 {
+	display:block;
+	width:815px;
+	height:110px;
+	padding:10px;
+	color:#003399;
+	font-family:'trebuchet ms', helvetica, arial, sans_serif;
+}
+
+/* pengaturan side panel */
+#sidebar{
+	border: #0000ff dashed 1px;
+	margin-top: 10px;
+	width:160px;
+	float: left;
+	background-color:#99ccff;
+}
+
+#sidebar h3
+{
+	color: #993300;
+	padding-left: 10px;
+	font-family:'trebuchet ms', helvetica, arial, sans-serif;
+}
+
+/*pengaturan menu navigasi */
+ul#navmenu {
+	margin: 0;
+	padding: 0;
+	list-style-type : none;
+}
+
+ul#navmenu li {
+	margin-bottom : 5px;
+}
+ul#navmenu a {
+	display: block;
+	width: auto;
+	height: auto;
+	background-color : #003366;
+	padding : 5px 5px 3px;
+	text-align : left;
+	text-decoration : none;
+	color : #FFE500;
+	cursor : pointer;
+}
+
+ul#navmenu a:hover, ul#navmenu a:focus, ul#navmenu a:active {
+	background-color : #333;
+	color : #fff;
+}
+
+ul#navmenu a.selected, ul#navmenu a.selected:hover,
+ul#navmenu a.selected:focus, ul#navmenu a.selected:active {
+	background-color : #386088;
+	color : #fff;
+}
+
+ul#navmenu a.selected{
+	text-align : right;
+	cursor : default;
+}
+
+/* pengaturan content */
+#page{
+	border: #0000ff dashed 1px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	width: 800px;
+	float: left;
+}
+#page h2{
+	color: #993300;
+	font-family: 'trebuchet ms', helvetica, arial, sans-serif;
+}
+img{
+	border: none;
+}
+
+#clear{
+	clear: both;
+}
+
+#login{
+	padding-top: 350px;
+	width: 170px;
+	height: 200px;
+}
+/* pengaturan footer */
+#footer{
+	border: #0000ff dashed 1px;
+	margin-top: 10px;
+	text-align: center;
+	background-color:#99ccff;
+}

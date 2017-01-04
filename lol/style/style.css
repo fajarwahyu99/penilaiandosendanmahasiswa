@@ -1,0 +1,126 @@
+/* Default */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	text-align: center;
+}
+
+
+/* pengaturan halaman */
+#container{
+	width: 1000px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+/* pengaturan header */
+#header{
+	height: 215px;
+	background-image:url(../images/ab.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+#header h1 {
+	display:block;
+	width:815px;
+	height:110px;
+	padding:10px;
+	color:#003399;
+	font-family:'trebuchet ms', helvetica, arial, sans_serif;
+}
+
+/* pengaturan side panel */
+#sidebar{
+	
+	margin-top: 0px;
+	width:170px;
+	height:300px;
+	float: left;
+	background-color: #006600;
+}
+
+#sidebar h3
+{
+	color: #FFFFFF;
+	padding-left: 10px;
+	font-family:'trebuchet ms', helvetica, arial, sans-serif;
+}
+
+/*pengaturan menu navigasi */
+ul#navmenu {
+	margin: 0;
+	padding: 0;
+	list-style-type : none;
+}
+
+ul#navmenu li {
+	margin-bottom : 5px;
+}
+ul#navmenu a {
+	display: block;
+	width: auto;
+	height: auto;
+	background-color : #003366;
+	padding : 5px 5px 3px;
+	text-align : left;
+	text-decoration : none;
+	color : #FFE500;
+	cursor : pointer;
+}
+
+ul#navmenu a:hover, ul#navmenu a:focus, ul#navmenu a:active {
+	background-color : #333;
+	color : #fff;
+}
+
+ul#navmenu a.selected, ul#navmenu a.selected:hover,
+ul#navmenu a.selected:focus, ul#navmenu a.selected:active {
+	background-color : #386088;
+	color : #fff;
+}
+
+ul#navmenu a.selected{
+	text-align : right;
+	cursor : default;
+}
+
+/* pengaturan content */
+#page{
+	border: #0000ff dashed 1px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	width: 750px;
+	float: left;
+}
+#page h2{
+	color: #993300;
+	font-family: 'trebuchet ms', helvetica, arial, sans-serif;
+}
+img{
+	border: none;
+}
+
+#clear{
+	clear: both;
+}
+
+#login{
+	padding-top:0px;
+	height:180px;
+	margin-bottom:10px;
+	margin-top: 5px;
+	width:170px;
+	float: left;
+	background-color:#ffffff;
+}
+/* pengaturan footer */
+#footer{
+	margin-top: 10px;
+	clear: right;
+	background-color: #666666;
+}

@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	text-align: center;
+}
+
+#page{
+	margin:0 auto;
+	width:960px;
+	text-align:left;
+	}
+	
+#header{
+	height:100px;;
+	background-color: #00FF00;
+	background-image: url(../image/job.gif);
+	}
+	
+#cc {
+	float:right;
+	width:720px;
+	padding:24px;
+	}
+	
+	
+#cs {
+	float:right;
+	width:144px;
+	height:250px;
+	padding:24px;
+	background-color: #e551c7;
+	}
+	
+#cs ul {
+	padding-top: 0px;
+	list-style:none;
+	}
+	
+#cs li a {
+	text-decoration:none;
+	padding-top:5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eee;
+	display:block;
+	}
+	
+#cs li a:hover {
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+	
+#login{
+	
+	width:170px;
+	height:200px;
+	}
+	

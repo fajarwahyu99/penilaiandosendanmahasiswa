@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	text-align: center;
+}
+
+#page{
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+}
+
+#header{
+	height: 215px;
+	background-image:url(../images/ab.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+#cc{
+	float: right;
+	width: 720px;
+	padding: 24px;
+}
+
+#cs{
+	float:right;
+	width:144px;
+	height:300px;
+	padding:24px;
+	background-color: #006600;
+}
+
+#cs ul{
+	padding-top:70px;
+	list-style:none;
+}
+
+#cs li a{
+	text-decoration: none;
+	padding-top:5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #eee;
+	border-bottom-style: solid;
+	display: block;
+	}
+
+
+
+#login{
+	padding-top: 350px;
+	width: 170px;
+	height: 200px;
+}
+
+#footer{
+	clear: right;
+	background-color: #666666;
+}
